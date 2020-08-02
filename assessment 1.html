@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <script type="text/javascript">
+    function validate() {
+      var val=document.getElementById('yummy.txt').value;
+      if(!val.match(/^[a-zA-Z]+$/))
+      {
+        alert('only alphabets are allowed');
+        return false;
+      }
+      return  true;
+  }
+  </script>
+  <body>
+    
+     <h1> Employee Registration form</h1>
+    <hr>
+     <label for="Employee" name"><b>Employee name</b></label>
+   <input type="Employee name" placeholder="Enter Employee name" name="name" ="name" required >
+<hr>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <hr>
+
+    <label for="psw-confirm"><b>confirm Password</b></label>
+    <input type="password" placeholder="confirm Password" name="psw-confirm" id="psw-confirm" required>
+    <hr>
+    <label for="DOB"><b>DOB</b></label>
+    <input type="date" placeholder="DOB"name="test" id="DOB" DOB" max="2003-01-24" alt="invalid DOB">
+    <hr>
+     <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <hr>
+<form action="/action_page.php" method="get" autocomplete="on">
+    	<hr>
+      <label for="QUALIFICATION"><b>QUALIFICATION</b></label>
+  <select>
+        <option>graduation</option>
+    		<option>computer science engineering</option>
+    		<option>Electronic engineering</option>
+    		<option>Bachelor of arts</option>
+      </select>
+        <select>
+        <option>post graduation</option>
+    			<option>Mtech computer science</option>
+    			<option>Mtech power electronics</option>
+    		</select>
+    		<hr>
+<button type="submit" class="registerbtn">Register</button>
+  </div>
+
+
+  </div>
+</form>
+
+</head>
+</body>
+</html>
